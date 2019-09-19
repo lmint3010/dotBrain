@@ -8,6 +8,10 @@ const Wrapper = styled.div`
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
     display: flex;
     align-items: center;
+
+    @media (max-width: 976px) {
+        padding: 12px 1rem;
+    }
 `
 
 const Dot = styled.span`
@@ -30,6 +34,10 @@ const NavLink = styled(Link)`
     font-size: 16px;
     font-weight: 600;
     margin: 0 1rem;
+
+    @media (max-width: 976px) {
+        margin: 0;
+    }
 `
 
 const LeftBox = styled.div`

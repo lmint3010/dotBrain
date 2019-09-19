@@ -9,6 +9,10 @@ import { Title, Paragraph } from "./styled"
 
 const AboutMe = styled.div`
     display: flex;
+
+    @media (max-width: 976px) {
+        flex-direction: column;
+    }
 `
 
 const AuthorAva = styled.div`
@@ -25,12 +29,37 @@ const AuthorAva = styled.div`
     &:hover {
         border-radius: 50%;
     }
+
+    @media (max-width: 976px) {
+        width: 40vw;
+        height: 40vw;
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+`
+
+const AboutBody = styled.div`
+    padding-left: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @media (max-width: 976px) {
+        padding: 0;
+    }
 `
 
 const Socials = styled.div`
     display: flex;
     display: flex;
     align-items: center;
+
+    @media (max-width: 976px) {
+        margin-top: 1rem;
+        justify-content: flex-end;
+    }
 `
 
 const Contact = styled.a`
@@ -58,14 +87,7 @@ export default ({ data }) => (
         <AuthorAva>
             <Image fluid={data.authorImg.img.fluid} />
         </AuthorAva>
-        <div
-            style={{
-                paddingLeft: "12px",
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "space-between"
-            }}
-        >
+        <AboutBody>
             <Title>Giới thiệu bản thân</Title>
             <Paragraph>
                 Mình tên Lư Minh Thông - 30/10/1999
@@ -103,6 +125,6 @@ export default ({ data }) => (
                     <FontAwesomeIcon icon={faMobileAlt} />
                 </Contact>
             </Socials>
-        </div>
+        </AboutBody>
     </AboutMe>
 )

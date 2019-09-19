@@ -20,6 +20,19 @@ const BlogWrapper = styled.div`
     width: 74vw;
     display: block;
     margin: 1rem auto;
+
+    h1 {
+        font-size: 34px;
+
+        @media (max-width: 976px) {
+            font-size: 24px;
+        }
+    }
+
+    @media (max-width: 976px) {
+        width: 90vw;
+        font-size: 13.5px;
+    }
 `
 
 export default ({ data }) => {

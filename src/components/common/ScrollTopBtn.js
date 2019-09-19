@@ -11,6 +11,7 @@ const ActionButton = styled.div`
     right: 1rem;
     display: flex;
     flex-direction: column;
+    z-index: 1000;
 `
 
 const BackBtn = styled(Link)`

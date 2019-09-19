@@ -21,6 +21,12 @@ const NewTitle = styled(Title)`
 const Certificate = styled.div`
     margin: 1rem 0;
     width: 48%;
+
+    @media (max-width: 512px) {
+        width: 100%;
+        display: block;
+        margin: 1rem auto;
+    }
 `
 
 export default ({ data }) => {

@@ -13,6 +13,11 @@ const Wrapper = styled.div`
     max-width: 50vw;
     margin: 0 auto;
     display: block;
+
+    @media (max-width: 976px) {
+        max-width: 96vw;
+        padding: 1rem 8px;
+    }
 `
 
 export default ({ data }) => {

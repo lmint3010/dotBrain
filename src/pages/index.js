@@ -26,6 +26,18 @@ const BlogContainer = styled.div`
     &:hover {
         transform: scale(1.04);
     }
+
+    @media (max-width: 1024px) {
+        width: calc(94% / 3);
+    }
+
+    @media (max-width: 768px) {
+        width: calc(96% / 2);
+    }
+
+    @media (max-width: 512px) {
+        width: 98%;
+    }
 `
 
 const BlogImageBox = styled.div`
@@ -81,9 +93,19 @@ const BlogExcerpt = styled.div`
 const IndexPage = ({ data }) => {
     const { list } = data
 
+    console.log(data)
+
+    const metaData = [
+        {
+            name: `og:image`,
+            content:
+                "https://dotbrainn.com/static/6d91c86c0fde632ba4cd01062fd9ccfa/af144/gatsby-astronaut.png"
+        }
+    ]
+
     return (
         <>
-            <SEO title="Welcome" />
+            <SEO title="Welcome" meta={metaData} />
             <Layout>
                 <BlogList>
                     {list.blogs.map(({ blog }, i) => (
