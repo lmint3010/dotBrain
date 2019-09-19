@@ -99,7 +99,7 @@ const IndexPage = ({ data }) => {
         {
             property: `og:image`,
             content:
-                "https://dotbrainn.com/static/business_analyst-c1fa1ae7240bcb613286299a56a56db0.jpeg"
+                "https://dotbrainn.com/static/c1fa1ae7240bcb613286299a56a56db0/8179c/business_analyst.jpg"
         }
     ]
 
