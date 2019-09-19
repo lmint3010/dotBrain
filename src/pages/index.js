@@ -99,7 +99,7 @@ const IndexPage = ({ data }) => {
         {
             property: `og:image`,
             content:
-                "https://dotbrainn.com/static/6d91c86c0fde632ba4cd01062fd9ccfa/af144/gatsby-astronaut.png"
+                "https://dotbrainn.com/static/business_analyst-c1fa1ae7240bcb613286299a56a56db0.jpeg"
         }
     ]
 
