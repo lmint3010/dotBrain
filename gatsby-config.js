@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
         title: `dotBrain`,
-        description: `Lmint's plannet - where keep his all knowledge!`,
+        description: `Blog chia sẻ kiến thức cá nhân của Luminhthong - Co-Founder at CyberSkill`,
         author: `@lmint`
     },
     plugins: [

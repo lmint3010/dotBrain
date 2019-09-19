@@ -97,7 +97,7 @@ const IndexPage = ({ data }) => {
 
     const metaData = [
         {
-            name: `og:image`,
+            property: `og:image`,
             content:
                 "https://dotbrainn.com/static/6d91c86c0fde632ba4cd01062fd9ccfa/af144/gatsby-astronaut.png"
         }
