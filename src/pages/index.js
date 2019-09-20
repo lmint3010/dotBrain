@@ -2,99 +2,72 @@ import React from "react"
 import styled from "styled-components"
 import Image from "gatsby-image"
 
-import { graphql, Link } from "gatsby"
-import categoriesData from "../constants/categories"
+import { Link, graphql } from "gatsby"
 
 import SEO from "../components/seo"
-import Layout from "../components/layout"
 
-const BlogList = styled.div`
-    display: flex;
-    flex-wrap: wrap;
-`
-
-const BlogContainer = styled.div`
+const Wrapper = styled.div`
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
     display: flex;
     flex-direction: column;
-    width: calc(90% / 5);
-    height: auto;
-    margin: 1rem 1%;
-    border-radius: 12px;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.12);
-    transition: 150ms ease;
-
-    &:hover {
-        transform: scale(1.04);
-    }
-
-    @media (max-width: 1024px) {
-        width: calc(94% / 3);
-    }
+    justify-content: center;
+    align-items: center;
 
     @media (max-width: 768px) {
-        width: calc(96% / 2);
-    }
-
-    @media (max-width: 512px) {
-        width: 98%;
+        padding: 0 1rem;
     }
 `
 
-const BlogImageBox = styled.div`
-    width: 100%;
+const Title = styled.h1`
+    font-size: 24px;
+    text-align: center;
+    margin: 0 0 8px 0;
+`
+
+const Subtitle = styled.p`
+    font-size: 16px;
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+        text-align: center;
+    }
+`
+
+const ListLink = styled.div`
+    display: flex;
+`
+
+const Link2 = styled(Link)`
+    font-size: 16px;
+    border: 1px dashed rgba(100, 100, 100, 1);
+    border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
+    padding: 4px 1rem;
+    transition: 200ms ease;
+    margin: 0 4px;
+
+    &:hover {
+        border-color: dodgerblue;
+        border-style: solid;
+        background: dodgerblue;
+        color: white;
+    }
+`
+
+const Author = styled.div`
+    width: 150px;
     height: 150px;
+    border-radius: 50%;
     overflow: hidden;
-`
-
-const BlogImage = styled.div`
-    width: 100%;
-`
-
-const BlogBody = styled.div`
-    padding: 1rem;
-`
-
-const BlogCategory = styled.span`
-    font-size: 13px;
-    padding: 4px 8px;
-    border-radius: 1rem;
-    background: ${props => categoriesData[props.data].background};
-    color: ${props => categoriesData[props.data].color};
-`
-
-const BlogTitle = styled.div`
-    font-size: 18px;
-    font-weight: 700;
-    margin-bottom: 8px;
-
-    & a {
-        color: inherit;
-        text-decoration: none;
-    }
-
-    & a:hover {
-        text-decoration: underline;
-    }
-`
-
-const BlogTime = styled.div`
-    font-size: 11.5px;
-    font-weight: 400;
-    color: gray;
-    text-transform: capitalize;
-`
-
-const BlogExcerpt = styled.div`
-    font-size: 13px;
-    font-weight: 400;
-    color: gray;
+    margin: 0 0 1rem 0;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.2);
 `
 
 const IndexPage = ({ data }) => {
-    const { list } = data
-
-    console.log(data)
-
     const metaData = [
         {
             property: `og:image`,
@@ -106,75 +79,45 @@ const IndexPage = ({ data }) => {
     return (
         <>
             <SEO title="Welcome" meta={metaData} />
-            <Layout>
-                <BlogList>
-                    {list.blogs.map(({ blog }, i) => (
-                        <BlogContainer key={i}>
-                            <BlogImageBox>
-                                <BlogImage>
-                                    <Image
-                                        loading="lazy"
-                                        fluid={
-                                            blog.frontmatter.featuredImage.img
-                                                .fluid
-                                        }
-                                    />
-                                </BlogImage>
-                            </BlogImageBox>
-                            <BlogBody>
-                                <BlogCategory
-                                    data={blog.frontmatter.categories}
-                                >
-                                    {
-                                        categoriesData[
-                                            blog.frontmatter.categories
-                                        ].title
-                                    }
-                                </BlogCategory>
-                                <BlogTime>{blog.frontmatter.date}</BlogTime>
-                                <BlogTitle>
-                                    <Link to={blog.fields.slug}>
-                                        {blog.frontmatter.title}
-                                    </Link>
-                                </BlogTitle>
-                                <BlogExcerpt>{blog.excerpt}</BlogExcerpt>
-                            </BlogBody>
-                        </BlogContainer>
-                    ))}
-                </BlogList>
-            </Layout>
+            <Wrapper>
+                <Author>
+                    <Image fluid={data.authorImg.img.fluid} />
+                </Author>
+                <Title>
+                    Tui là Lmint{" "}
+                    <span role="img" aria-label="say-hi">
+                        ️✌️
+                    </span>
+                </Title>
+                <Subtitle>Cảm ơn vì đã ghé thăm tủ kiến thức của tớ</Subtitle>
+                <ListLink>
+                    <Link2 to="/blog">Xem Blog</Link2>
+                    <Link2 to="/about">
+                        Xem Tớ{" "}
+                        <span role="img" aria-label="kiss-face">
+                            😚
+                        </span>
+                    </Link2>
+                </ListLink>
+            </Wrapper>
         </>
     )
 }
 
-export const blogs = graphql`
-    {
-        list: allMarkdownRemark {
-            blogs: edges {
-                blog: node {
-                    frontmatter {
-                        title
-                        categories
-                        date(
-                            locale: "vi"
-                            formatString: "dddd, Do MMMM YYYY --- hh:mm:ss"
-                        )
-                        featuredImage {
-                            img: childImageSharp {
-                                fluid(maxWidth: 800) {
-                                    ...GatsbyImageSharpFluid
-                                }
-                            }
-                        }
-                    }
-                    timeToRead
-                    excerpt
-                    fields {
-                        slug
-                    }
-                }
+export const imageFragment = graphql`
+    fragment imageFragment on File {
+        img: childImageSharp {
+            fluid(maxWidth: 600) {
+                ...GatsbyImageSharpFluid
             }
-            totalCount
+        }
+    }
+`
+
+export const query = graphql`
+    query {
+        authorImg: file(relativePath: { eq: "author.jpg" }) {
+            ...imageFragment
         }
     }
 `

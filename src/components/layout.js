@@ -14,7 +14,7 @@ import Navbar from "./Navbar"
 import "./layout.css"
 
 const Wrapper = styled.div`
-    padding: 1rem;
+    padding: 4rem 1rem 1rem;
 `
 
 const Layout = ({ children }) => {

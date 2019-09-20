@@ -22,7 +22,8 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 
 const allMarkdownStringQuery = `
     query {
-        allMarkdownRemark {
+        allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC },
+            limit: 1000) {
             edges {
                 node {
                     fields {
@@ -34,12 +35,20 @@ const allMarkdownStringQuery = `
     }
 `
 const path = require("path")
-exports.createPages = async ({ graphql, actions }) => {
+exports.createPages = async ({ graphql, actions, reporter }) => {
     const { createPage } = actions
 
     const result = await graphql(allMarkdownStringQuery)
 
-    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+    if (result.errors) {
+        reporter.panicOnBuild(`Error while running GraphQL query.`)
+        return
+    }
+
+    const posts = result.data.allMarkdownRemark.edges
+    const postsPerPage = 10
+    const numPages = Math.ceil(posts.length / postsPerPage)
+    posts.forEach(({ node }, i) => {
         createPage({
             path: node.fields.slug,
             component: path.resolve(`./src/templates/Blog.js`),
@@ -47,6 +56,19 @@ exports.createPages = async ({ graphql, actions }) => {
                 // Data passed to context is available
                 // in page queries as GraphQL variables.
                 slug: node.fields.slug
+            }
+        })
+    })
+
+    Array.from({ length: numPages }).forEach((_, i) => {
+        createPage({
+            path: i === 0 ? `/blog` : `/blog/${i + 1}`,
+            component: path.resolve("./src/templates/BlogList.js"),
+            context: {
+                limit: postsPerPage,
+                skip: i * postsPerPage
+                // numPages,
+                // currentPage: i + 1
             }
         })
     })

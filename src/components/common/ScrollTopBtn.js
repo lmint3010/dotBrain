@@ -12,6 +12,10 @@ const ActionButton = styled.div`
     display: flex;
     flex-direction: column;
     z-index: 1000;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
 `
 
 const BackBtn = styled(Link)`
