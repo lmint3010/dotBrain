@@ -42,7 +42,7 @@ const ListLink = styled.div`
 
 const Link2 = styled(Link)`
     font-size: 16px;
-    border: 1px dashed rgba(100, 100, 100, 1);
+    border: 1px solid rgba(200, 200, 200, 0.4);
     border-radius: 8px;
     text-decoration: none;
     color: inherit;
@@ -51,16 +51,16 @@ const Link2 = styled(Link)`
     margin: 0 4px;
 
     &:hover {
-        border-color: dodgerblue;
+        border-color: #ffcb57;
         border-style: solid;
-        background: dodgerblue;
-        color: white;
+        background: #ffcb57;
+        color: rgba(50, 50, 50, 1);
     }
 `
 
 const Author = styled.div`
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     overflow: hidden;
     margin: 0 0 1rem 0;
@@ -89,13 +89,13 @@ const IndexPage = ({ data }) => {
                         ️✌️
                     </span>
                 </Title>
-                <Subtitle>Cảm ơn vì đã ghé thăm tủ kiến thức của tớ</Subtitle>
+                <Subtitle>Cảm ơn vì đã ghé thăm dotBrainn của tớ</Subtitle>
                 <ListLink>
-                    <Link2 to="/blog">Xem Blog</Link2>
+                    <Link2 to="/blog">Xem bài viết</Link2>
                     <Link2 to="/about">
-                        Xem Tớ{" "}
+                        Tác giả{" "}
                         <span role="img" aria-label="kiss-face">
-                            😚
+                            ❤️
                         </span>
                     </Link2>
                 </ListLink>

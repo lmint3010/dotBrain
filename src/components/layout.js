@@ -15,6 +15,10 @@ import "./layout.css"
 
 const Wrapper = styled.div`
     padding: 4rem 1rem 1rem;
+
+    @media (max-width: 978px) {
+        padding: 4rem 0 1rem 0;
+    }
 `
 
 const Layout = ({ children }) => {

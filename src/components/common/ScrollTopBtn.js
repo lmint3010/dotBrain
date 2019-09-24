@@ -20,12 +20,11 @@ const ActionButton = styled.div`
 
 const BackBtn = styled(Link)`
     border: none;
-    background: dodgerblue;
+    background: #ffcb57;
     color: white;
-    font-size: 18px;
-    font-weight: 700;
-    padding: 8px 20px;
-    border-radius: 1rem;
+    font-size: 14px;
+    padding: 6px 12px;
+    border-radius: 2px;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -35,12 +34,11 @@ const BackBtn = styled(Link)`
 
 const ScrollTopButton = styled.button`
     border: none;
-    background: dodgerblue;
+    background: #ffcb57;
     color: white;
-    font-size: 18px;
-    font-weight: 700;
-    padding: 8px 20px;
-    border-radius: 1rem;
+    font-size: 14px;
+    padding: 6px 12px;
+    border-radius: 2px;
     text-decoration: none;
     display: flex;
     align-items: center;

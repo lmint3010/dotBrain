@@ -23,6 +23,7 @@ const BlogContainer = styled.div`
     border-radius: 12px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.12);
     transition: 150ms ease;
+    background: white;
 
     &:hover {
         transform: scale(1.04);
@@ -43,8 +44,9 @@ const BlogContainer = styled.div`
 
 const BlogImageBox = styled.div`
     width: 100%;
-    height: 150px;
+    height: 160px;
     overflow: hidden;
+    border-radius: 12px 12px 0 0;
 `
 
 const BlogImage = styled.div`
@@ -56,11 +58,12 @@ const BlogBody = styled.div`
 `
 
 const BlogCategory = styled.span`
-    font-size: 13px;
-    padding: 4px 8px;
-    border-radius: 1rem;
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 2px;
     background: ${props => categoriesData[props.data].background};
     color: ${props => categoriesData[props.data].color};
+    margin-right: 6px;
 `
 
 const BlogTitle = styled.div`
@@ -121,15 +124,13 @@ const IndexPage = ({ data }) => {
                                 </BlogImage>
                             </BlogImageBox>
                             <BlogBody>
-                                <BlogCategory
-                                    data={blog.frontmatter.categories}
-                                >
-                                    {
-                                        categoriesData[
-                                            blog.frontmatter.categories
-                                        ].title
-                                    }
-                                </BlogCategory>
+                                {blog.frontmatter.categories
+                                    .split(",")
+                                    .map(item => (
+                                        <BlogCategory data={item.trim()}>
+                                            {categoriesData[item.trim()].title}
+                                        </BlogCategory>
+                                    ))}
                                 <BlogTime>{blog.frontmatter.date}</BlogTime>
                                 <BlogTitle>
                                     <Link to={blog.fields.slug}>

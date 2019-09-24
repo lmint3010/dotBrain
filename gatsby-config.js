@@ -2,7 +2,8 @@ module.exports = {
     siteMetadata: {
         title: `dotBrain`,
         description: `Blog chia sẻ kiến thức cá nhân của Luminhthong - Co-Founder at CyberSkill`,
-        author: `@lmint`
+        author: `@lmint`,
+        url: `https://dotbrainn.com`
     },
     plugins: [
         `gatsby-plugin-react-helmet`,
