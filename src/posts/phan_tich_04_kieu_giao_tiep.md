@@ -63,12 +63,12 @@ Nhưng ở góc nhìn khác của mình, họ chỉ đang cố gắng tập trun
 
 ### Tóm lược về Direct Style
 
-Những người thuộc nhóm này thường "go-getters"! Họ sẽ làm việc chăm chỉ và nhanh chóng. Nhưng thường dễ cáu gắt nếu có quá nhiều câu hỏi!
+Những người thuộc nhóm này thường "Go-Getters"! Họ sẽ làm việc chăm chỉ và nhanh chóng. Nhưng thường dễ cáu gắt nếu có quá nhiều câu hỏi!
 Nên học và cải thiện kỹ năng lắng nghe để giao tiếp hiệu quả hơn. Tránh việc quá lạnh lùng và logic rồi trở nên độc tài và vô tâm.
 
 ## #2 Spirited Style
 
-Những người có phong cách giao tiếp này thường quan tâm đến "Bức trang tổng thể" - "Big Picture". Họ thường là người mơ mộng, truyền cảm hứng, inventors hoặc mang lại sự đổi mới cho Team. Sự giao tiếp của họ thường chứa đầy ý tưởng và có cường điều. Điều đó rất thu hút và dễ thuyết phục người nghe lúc đầu.
+Những người có phong cách giao tiếp này thường quan tâm đến "Bức tranh tổng thể" - "Big Picture". Họ thường là người mơ mộng, truyền cảm hứng, inventors hoặc mang lại sự đổi mới cho Team. Sự giao tiếp của họ thường chứa đầy ý tưởng và có cường điều. Điều đó rất thu hút và dễ thuyết phục người nghe lúc đầu.
 
 Những người này thường không giỏi trong việc thảo luận chi tiết vấn đề hoặc các bước chính xác của một quy trình. Họ thường đưa chuyện ngoài lề hoặc dẫn chứng khá nhiều trong cuộc đối thoại để minh hoạ cho ý tưởng của họ. Đôi khi từ những dẫn chứng đó họ **vô tình** đưa câu chuyện **sang hướng khác** so với mục tiêu ban đầu.
 
@@ -175,7 +175,7 @@ Vậy nếu người nghe là **Direct Style**? Bạn có thể giao tiếp tố
 
 Nhóm giao tiếp này thường đưa ra các ý tưởng lớn và một bức tranh tổng thể cho một vấn đề. Hoặc dùng quá nhiều dẫn chứng và ví dụ khi giao tiếp để minh chứng cho lời nói của họ. Nên dễ khiến câu chuyện đi lệch hướng so với mục tiêu đề ra. Bạn cần theo dõi quá trình giao tiếp của họ để đảm bảo họ đang đi dúng hướng và kịp thời điều chỉnh câu chuyện khi nó đi lệch hướng...
 
-Sử dụng các câu hỏi mang tính dọ hỏi hoặc xác thực nội dung thường xuyên để chắc chắn rằng bạn và họ đang cùng tập trung vào đúng vấn đề. Mặt khác, hãy nhớ là người thuộc nhóm **Spirited Style** thường đưa ý tưởng và bức trang lớn. Nhưng họ cần nhiều thời gian để brainstorm và breakdown ý tưởng đó của họ và tìm ra thấy các điểm đúng và sai trong đó.
+Sử dụng các câu hỏi mang tính dọ hỏi hoặc xác thực nội dung thường xuyên để chắc chắn rằng bạn và họ đang cùng tập trung vào đúng vấn đề. Mặt khác, hãy nhớ là người thuộc nhóm **Spirited Style** thường đưa ý tưởng và bức tranh lớn. Nhưng họ cần nhiều thời gian để brainstorm và breakdown ý tưởng đó của họ và tìm ra thấy các điểm đúng và sai trong đó.
 
 Trước khi bạn nói với họ là bạn **đã quyết định** hãy chắc chắn rằng họ đã đồng ý. Nhưng mặt khác, họ vẫn có thể luôn cảm thấy **cần phải thảo luận** về một cái gì trong khi bạn thấy vấn đề đó **đã được quyết định** rồi. Dưới đây là một ví dụ khi mình giao tiếp với một người bạn thuộc nhóm **Spirited Style** này về việc khen ngợi bài thuyết trình của Minh và do mình đang bận nên không tiện để anh ấy trình bày thêm ý tưởng nhưng vẫn giữ được liên lạc.
 
