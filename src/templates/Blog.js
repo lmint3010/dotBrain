@@ -14,11 +14,15 @@ import Image from "gatsby-image"
 import authorData from "../constants/author"
 
 const FeaturedImage = styled.div`
-    width: 38vw;
+    width: 36vw;
     display: block;
     margin: 1rem 0;
     border-radius: 0.4rem;
     overflow: hidden;
+
+    @media (max-width: 978px) {
+        width: 100%;
+    }
 `
 
 const BlogWrapper = styled.div`

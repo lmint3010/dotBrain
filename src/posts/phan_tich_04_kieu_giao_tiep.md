@@ -33,9 +33,9 @@ Cùng tìm hiểu thêm các nét đặc trưng của mỗi loại giao tiếp v
 
 ## #1 Direct Style
 
-Những người giao tiếp theo phong cách **giao tiếp trực tiếp** sẽ quyết đoán nhiều và ít biểu cảm. Họ thường **bảo** người khác **phải làm gì** thay vì nói với người khác họ đang nghỉ **những gì nên làm**. Phong cách giao tiếp này mang xu hướng khằng định **nhanh chóng** dù những người khác có thể không có góc nhìn giống mình.
+Những người giao tiếp theo phong cách **giao tiếp trực tiếp** sẽ quyết đoán nhiều và ít biểu cảm. Họ thường **bảo** người khác **phải làm gì** thay vì nói với người khác họ đang nghỉ **những gì nên làm**. Phong cách giao tiếp này mang xu hướng khằng định một cách **nhanh chóng** dù những người khác có thể không có góc nhìn giống mình.
 
-Những người phong cách giao tiếp trực tiếp thường sẽ nói **nhanh và ngắn gọn** nhất để nhanh chóng sang vấn đề tiếp theo. Không phải là vì họ cố gắng lãng tránh vấn đề mà là họ muốn **tiết kiệm thời gian**. Họ thường không dừng lại để lắng nghe cho dù người khác có thể đóng góp một ý kiến có giá trị. Có thể bạn thấy họ đang hống hách và làm việc một cách cá nhân?
+Những người có phong cách giao tiếp trực tiếp thường sẽ nói **nhanh và ngắn gọn** nhất để nhanh chóng sang vấn đề tiếp theo. Không phải là vì họ cố gắng lãng tránh vấn đề mà là họ muốn **tiết kiệm thời gian**. Họ thường không dừng lại để lắng nghe dù người khác có thể đóng góp một ý kiến có giá trị. Có thể bạn thấy họ đang hống hách và làm việc một cách cá nhân?
 
 Nhưng ở góc nhìn khác của mình, họ chỉ đang cố gắng tập trung để đi đến kết quả nhanh nhất có thể thay vì cố biểu hiện cảm xúc của mình. Họ sẽ **nói lên suy nghĩ** của mình, cho dù nó có thể **gây khó chịu** cho người khác! Họ không nói quá nhiều về cuộc sống cá nhân! Thường rõ ràng giữa cuộc sống và công việc!
 
@@ -70,23 +70,23 @@ Nên học và cải thiện kỹ năng lắng nghe để giao tiếp hiệu qu�
 
 Những người có phong cách giao tiếp này thường quan tâm đến "Bức tranh tổng thể" - "Big Picture". Họ thường là người mơ mộng, truyền cảm hứng, inventors hoặc mang lại sự đổi mới cho Team. Sự giao tiếp của họ thường chứa đầy ý tưởng và có cường điều. Điều đó rất thu hút và dễ thuyết phục người nghe lúc đầu.
 
-Những người này thường không giỏi trong việc thảo luận chi tiết vấn đề hoặc các bước chính xác của một quy trình. Họ thường đưa chuyện ngoài lề hoặc dẫn chứng khá nhiều trong cuộc đối thoại để minh hoạ cho ý tưởng của họ. Đôi khi từ những dẫn chứng đó họ **vô tình** đưa câu chuyện **sang hướng khác** so với mục tiêu ban đầu.
+Những người này thường không giỏi trong việc thảo luận chi tiết vấn đề hoặc phân tích các bước chính xác của một quy trình. Họ thường đưa chuyện ngoài lề hoặc dẫn chứng khá nhiều trong lúc đối thoại để minh hoạ cho ý tưởng của họ. Đôi khi, quá nhiều dẫn chứng khiến họ **vô tình** đưa câu chuyện đi **sang hướng khác** so với mục tiêu ban đầu.
 
-Giữ cho câu chuyện ngắn gọn và thẳng thắng là một thử thách đối với phong cách giao tiếp **Spirited**. Vì vậy việc **quản lý thời gian** và **tập trung vào vấn đề chính** sẽ là sự khó khăn với họ! Cho nên sẽ cần một người có thể hỗ trợ họ khi giao tiếp để đảm bảo câu chuyện đi đúng hướng và đưa họ quay trở lại đúng vấn đề khi cần thiết!
+Giữ cho câu chuyện ngắn gọn và mạch lạc là một thử thách đối với phong cách giao tiếp **Spirited**. Vì vậy, việc **quản lý thời gian** và **tập trung vào vấn đề chính** sẽ là vấn đề thật sự đối với họ! Sẽ cần một người có thể hỗ trợ họ khi giao tiếp để đảm bảo câu chuyện đi đúng hướng và đưa họ quay trở lại đúng vấn đề khi cần thiết!
 
 **Cách để giao tiếp hiệu quả khi bản thân bạn là người giao tiếp dạng Spirited Style**
 
--   Trước khi bạn **muốn chia sẻ ý tưởng** nào đó! Hãy **cân nhắc** xem bạn có gợi ý hoặc kế hoạch có thể hiện thực hoá ý tưởng hay không?
+-   Trước khi bạn **muốn chia sẻ ý tưởng** nào đó! Hãy **cân nhắc** xem bạn có gợi ý hoặc kế hoạch có thể hiện thực hoá ý tưởng đó hay không?
 -   **Tôn trọng thời gian** của người khác khi tham gia họp hoặc giao tiếp và **tránh** nói lang mang, dài dòng...
--   **Hãy chắc chắn** bạn cho phép người khác cùng tham gia đóng góp ý kiến và ý tưởng của họ khi trò truyện - và bạn **cần lắng nghe**
--   Hãy chắc chắn **yêu cầu** của bạn đưa ra phải **rõ ràng**, và truyền đạt lý do tạo điều kiện cho người khác đặt câu hỏi
--   Hãy thể hiện sự **đánh giá cao** của bạn đối với người khác và **tiếp nhận** nội dung của họ
+-   **Hãy chắc chắn** bạn cho phép người khác cùng tham gia đóng góp ý kiến, ý tưởng của họ khi trò truyện - và bạn **cần lắng nghe**
+-   Hãy chắc chắn **yêu cầu** của bạn đưa ra là **rõ ràng**, đồng thời giải thích lý do và tạo điều kiện cho người khác đặt câu hỏi với vấn đề của bạn.
+-   Hãy thể hiện sự **đánh giá cao** của bạn đối với người khác và **tiếp nhận** nội dung đóng góp của họ
 
 **Cách để giao tiếp hiệu quả với những người giao tiếp dạng Spirited Style**
 
--   Lên kế hoạch **giới hạn thời gian** thảo luận cho từng chủ đề
+-   Lên kế hoạch để **giới hạn thời gian** thảo luận cho từng chủ đề
 -   Thỉnh thoảng **nên khen ngợi** và tạo đồng thuận với họ và ý tưởng của họ
--   Học cách khéo léo, nhẹ nhàng **chuyển hướng câu chuyện** trở lại chủ đề chính khi nó bị lệch đi
+-   Học cách khéo léo, nhẹ nhàng **chuyển hướng câu chuyện** trở lại đúng chủ đề chính khi nó bị lệch hướng
 -   Những lúc họ trình bày ý tưởng, hãy cân nhắc rằng **họ có thể nói phóng đại** vì đó chỉ là ý tưởng được họ vẽ ra
 -   Hãy thử yêu cầu họ **break down** ý tưởng lớn của họ thành **các kết quả cần đạt** và **các bước thực hiện**.
 -   **Xác nhận lại** với họ những gì họ nói sẽ đồng ý làm
@@ -95,11 +95,11 @@ Giữ cho câu chuyện ngắn gọn và thẳng thắng là một thử thách 
 ### Tóm lược về Spirited Style
 
 Những người thuộc nhóm giao tiếp này thích làm sáng tỏ hoặc đưa ra ý tưởng, brainstorm (động não) và thường nói về Big-Picture (những bức tranh lớn).
-Miễn là họ có thể **nói nhiều hơn**! Nhưng họ sẽ rất khó khăn để trình bày chi tiết ý tưởng hoặc các bước thực hiện ý tưởng đó. Hoặc thường khó tập trung vào một chủ đề chính nhất định...
+Miễn là họ có thể **nói nhiều hơn**! Nhưng họ sẽ gặp khó khăn để trình bày chi tiết ý tưởng hoặc các bước thực hiện ý tưởng đó. Hoặc thường khó tập trung vào một chủ đề chính nhất định...
 
 ## #3 Systematic Style
 
-Giao tiếp có hệ thống là những người thường tập trung vào **sự thật và vấn đề chi tiết** nhiều hơn là các **ý kiến và khả năng**. Họ thường mong chờ được sử dụng và đánh giá thật cho một sản phẩm hoặc kết quả. Họ sẽ đánh giá và phân tích sự thật, sự việc hiện tại chứ không phải là những ý tưởng lớn "Big Picture" chưa được chứng minh và chưa thực hiện.
+Giao tiếp có hệ thống là những người thường tập trung vào **sự thật và vấn đề chi tiết** nhiều hơn là các **ý kiến và khả năng**. Họ thường mong chờ được sử dụng và đánh giá thật cho một sản phẩm hoặc đưa ra một kết quả. Họ sẽ đánh giá và phân tích sự thật, sự việc hiện tại chứ không phải là những ý tưởng lớn "Big Picture" chưa được chứng minh và chưa thực hiện.
 
 Họ có thể phản hồi chậm trong cuộc giao tiếp với bạn. Là vì họ sẽ phân tích tình huống và sự logic trước khi phản hồi. **Charts, Graphs hoặc xu thế thị trường** là những thông tin hữu ích để giao tiếp với những người thuộc **Systematic Style**. Ngoài ra nhóm người này thường không thích bày tỏ cảm xúc bản thân ra bên ngoài.
 
