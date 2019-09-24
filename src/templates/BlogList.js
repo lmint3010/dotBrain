@@ -64,6 +64,7 @@ const BlogCategory = styled.span`
     background: ${props => categoriesData[props.data].background};
     color: ${props => categoriesData[props.data].color};
     margin-right: 6px;
+    white-space: nowrap;
 `
 
 const BlogTitle = styled.div`
@@ -126,8 +127,11 @@ const IndexPage = ({ data }) => {
                             <BlogBody>
                                 {blog.frontmatter.categories
                                     .split(",")
-                                    .map(item => (
-                                        <BlogCategory data={item.trim()}>
+                                    .map((item, i) => (
+                                        <BlogCategory
+                                            key={i}
+                                            data={item.trim()}
+                                        >
                                             {categoriesData[item.trim()].title}
                                         </BlogCategory>
                                     ))}

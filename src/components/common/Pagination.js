@@ -71,50 +71,72 @@ export default ({ pageInfo }) => {
     )
 
     return (
-        <Wrapper>
-            <Box>
-                {paginationArrayData.map(({ type, value }, i) => {
-                    const isActive = currentPage === value ? "active" : ""
+        <>
+            {totalPages > 1 ? (
+                <Wrapper>
+                    <Box>
+                        {paginationArrayData.map(({ type, value }, i) => {
+                            const isActive =
+                                currentPage === value ? "active" : ""
 
-                    switch (type) {
-                        case _type.rootstart:
-                            return (
-                                <Root key={i} to="/blog">
-                                    {value}
-                                </Root>
-                            )
-                        case _type.rootend:
-                            return (
-                                <Root key={i} to={`/blog/${totalPages}`}>
-                                    {value}
-                                </Root>
-                            )
-                        case _type.left:
-                            return (
-                                <Block key={i} to={`/blog/${currentPage - 1}`}>
-                                    <FontAwesomeIcon icon={faChevronLeft} />
-                                </Block>
-                            )
-                        case _type.right:
-                            return (
-                                <Block key={i} to={`/blog/${currentPage + 1}`}>
-                                    <FontAwesomeIcon icon={faChevronRight} />
-                                </Block>
-                            )
-                        case _type.page:
-                        default:
-                            return (
-                                <Block
-                                    key={i}
-                                    to={`/blog/${value}`}
-                                    className={isActive ? "active" : ""}
-                                >
-                                    {value}
-                                </Block>
-                            )
-                    }
-                })}
-            </Box>
-        </Wrapper>
+                            switch (type) {
+                                case _type.rootstart:
+                                    return (
+                                        <Root key={i} to="/blog">
+                                            {value}
+                                        </Root>
+                                    )
+                                case _type.rootend:
+                                    return (
+                                        <Root
+                                            key={i}
+                                            to={`/blog/${totalPages}`}
+                                        >
+                                            {value}
+                                        </Root>
+                                    )
+                                case _type.left:
+                                    return (
+                                        <Block
+                                            key={i}
+                                            to={`/blog/${currentPage - 1}`}
+                                        >
+                                            <FontAwesomeIcon
+                                                icon={faChevronLeft}
+                                            />
+                                        </Block>
+                                    )
+                                case _type.right:
+                                    return (
+                                        <Block
+                                            key={i}
+                                            to={`/blog/${currentPage + 1}`}
+                                        >
+                                            <FontAwesomeIcon
+                                                icon={faChevronRight}
+                                            />
+                                        </Block>
+                                    )
+                                case _type.page:
+                                default:
+                                    return (
+                                        <Block
+                                            key={i}
+                                            to={
+                                                value === 1
+                                                    ? `/blog`
+                                                    : `/blog/${value}`
+                                            }
+                                            className={isActive ? "active" : ""}
+                                        >
+                                            {value}
+                                        </Block>
+                                    )
+                            }
+                        })}
+                    </Box>
+                </Wrapper>
+            ) : null}
+        </>
     )
 }
